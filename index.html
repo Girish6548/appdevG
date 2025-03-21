@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill Calculation</title>
+    <link rel="stylesheet" href="Bill002_styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Bill Calculation</h1>
+
+        <div id="lines-container">
+            <!-- Dynamic input lines will be added here -->
+        </div>
+
+        <button id="add-line-btn" class="add-btn" onclick="addLine()">Add Line</button>
+
+        <div class="underline"></div>
+
+        <div class="total-container">
+            <div class="total-row">
+                <label for="d">Total of All: </label>
+                <input type="text" id="d" readonly>
+            </div>
+        </div>
+
+        <div class="underline"></div>
+
+        <div class="thank-you">
+            <p>- - THANK YOU - -</p>
+        </div>
+    </div>
+
+    <script src="Bill002_script.js"></script>
+</body>
+</html>
